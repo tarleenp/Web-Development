@@ -33,7 +33,8 @@ Step 3 - Show the Sequence to the User with Animations and Sounds:
 
 Use jQuery to select the button with the same id as the randomChosenColour
 You should end up with an effect like this:
-https://img-b.udemycdn.com/redactor/raw/2018-11-22_10-50-30-ca62b559c6bd348f347ab370e5f009b4.gif
+
+![]https://img-b.udemycdn.com/redactor/raw/2018-11-22_10-50-30-ca62b559c6bd348f347ab370e5f009b4.gif
 
 Use Javascript to play the sound for the button colour selected in step 1.
 
