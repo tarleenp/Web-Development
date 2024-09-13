@@ -4,6 +4,9 @@ https://londonappbrewery.github.io/Simon-Game
 Languages used: Html,css,javascript and jquery library.
 
 Process to create website:
+
+Step 1 - Add Javascript and jQuery:
+
 Our game logic will be created inside an external Javascript file.
 Create a new file called index.js
 Link this new external JS file to your index.html
@@ -16,6 +19,8 @@ If successful, you should get something like this printed:
 If jQuery is not added, you will get this instead:
 ![image](https://github.com/user-attachments/assets/576c6a34-d005-4976-8f2b-ea6bd62a99d4)
 
+Step 2 - Create A New Pattern:
+
 Inside index.js create a new function called nextSequence()
 Inside the new function generate a new random number between 0 and 3, and store it in a variable called randomNumber
 You can use the Chrome console to verify that your code creates random numbers between the correct range.
@@ -24,9 +29,12 @@ Create a new variable called randomChosenColour and use the randomNumber from st
 At the top of the index.js file, create a new empty array called gamePattern.
 Add the new randomChosenColour generated in step 4 to the end of the gamePattern.
 
+Step 3 - Show the Sequence to the User with Animations and Sounds:
+
 Use jQuery to select the button with the same id as the randomChosenColour
 You should end up with an effect like this:
-![image](https://github.com/user-attachments/assets/8ee8a8eb-1bb3-4ee8-8521-586fcc4ca216)
+https://img-b.udemycdn.com/redactor/raw/2018-11-22_10-50-30-ca62b559c6bd348f347ab370e5f009b4.gif
+
 Use Javascript to play the sound for the button colour selected in step 1.
 
 Use jQuery to detect when any of the buttons are clicked and trigger a handler function.
